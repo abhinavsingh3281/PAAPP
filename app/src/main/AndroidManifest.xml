@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.paapp">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PAAPP">
+        <activity android:name=".SDM.SDM3.SDM3Verify"></activity>
+        <activity android:name=".SDM.SDM2.SDM2Verify" />
+        <activity android:name=".SDM.SDM1.SDM1Verify" />
+        <activity android:name=".DM.DMVerify" />
+        <activity android:name=".ADM.ADMVerify" />
+        <activity android:name=".ADM.UpdateAdm" />
+        <activity android:name=".ADM.ADM" />
+        <activity android:name=".DM.UpdateDM" />
+        <activity android:name=".DM.DM" />
+        <activity android:name=".SDM.SDM3.UpdateSdm3" />
+        <activity android:name=".SDM.SDM2.UpdateSdm2" />
+        <activity android:name=".SDM.SDM3.SDM3" />
+        <activity android:name=".SDM.SDM2.SDM2" />
+        <activity android:name=".SDM.SDM1.UpdateClassSdm1" />
+        <activity android:name=".SDM.SDM1.SDM1" />
+        <activity android:name=".SDM.SDM" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
